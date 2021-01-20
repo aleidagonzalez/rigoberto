@@ -1,0 +1,92 @@
+body{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-flow: column;
+    align-items: center;
+}
+.wrapper{
+   margin: 0;
+   padding-bottom: 2em;
+   width: 60%;
+   background-color: black;
+   display: flex;
+   flex-flow: column;
+   align-items: center;
+
+}
+.card{
+    background-color: white;
+    width: 53%;
+    margin: 3em;
+    border-radius: 1%;
+}
+.card-header{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+.logo-header{
+    display: flex;
+    align-items: center;
+    flex-grow: 0.5;
+    margin-left: 0.8em;
+}
+.title-header{
+   flex-grow: 0.5;
+   flex-wrap: wrap;
+
+}
+.icon-menu-header{
+    display: flex;
+    align-items: center;
+    flex-grow: 8;
+    margin-right: 0.8em;
+    flex-flow: wrap;
+    justify-content: flex-end;
+}
+.card-body img{
+    width: 100%;
+    object-fit: fill;
+}
+
+.card-icon-actions {
+    display: flex;
+    padding-top: 0.8em;
+}
+.icon-favorite{ 
+    display: flex;
+    flex-grow: 0.2;
+    margin-left: 0.8em;
+}
+.icon-comment{
+    display: flex;
+    flex-grow: 0.2;
+}
+.icon-send{
+    display: flex;
+    flex-grow: 0.2;
+}
+.icon-bookmark{
+    display: flex;
+    flex-grow: 7;
+    margin-right: 0.8em;
+    flex-flow: wrap;
+    justify-content: flex-end;
+}
+
+.card-footer-tags {
+    margin-top: 1em;
+    padding: 0.8em;
+    text-align: left;
+}
+
+.card-footer-text {
+    margin-bottom: 1em;
+    padding: 0.8em;
+    color: #616161;
+    text-align: justify;
+}
